@@ -20,7 +20,10 @@ La implementación de los requerimientos identificados de Bankify se desglosa de
 | **ID** | HU-01 |
 | **Título** | Iniciar creación de torneo desde el listado |
 | **Descripción** | Como organizador quiero acceder al formulario de creación de torneo desde la pantalla de Listado de Torneos para poder iniciar el registro de un nuevo torneo. |
-| **Prioridad** | *[Alta] [Media] [Baja]* |
+| **Prioridad** | **HU-01 (Alta):** Es el punto de entrada obligatorio al flujo. Sin esta 
+  funcionalidad, ningún organizador puede llegar al formulario de creación 
+  — bloquea completamente el resto de la épica.
+ |
 | **Estimación** | *Puntos de historia* |
 
 | Campo | Descripción |
@@ -28,7 +31,10 @@ La implementación de los requerimientos identificados de Bankify se desglosa de
 | **ID** | HU-02 |
 | **Título** | Completar y enviar el formulario de creación de torneo |
 | **Descripción** | Como organizador quiero ingresar la fecha del torneo y el valor de inscripción en el Formulario Crear Torneo para registrar los datos necesarios y que, si son válidos, el torneo se cree y me lleve a la pantalla de Confirmación. |
-| **Prioridad** | *[Alta] [Media] [Baja]* |
+| **Prioridad** | **HU-02 (Alta):** Es el corazón funcional de la épica: aquí se valida y 
+  persiste la información real del torneo (fecha, valor de inscripción) 
+  según las reglas de negocio. Sin esta historia no existe "creación de 
+  torneos" como funcionalidad |
 | **Estimación** | *Puntos de historia* |
 
 | Campo | Descripción |
@@ -36,7 +42,9 @@ La implementación de los requerimientos identificados de Bankify se desglosa de
 | **ID** | HU-03 |
 | **Título** | Cancelar la creación de un torneo |
 | **Descripción** | Como organizador quiero poder cancelar el proceso desde el Formulario Crear Torneo para regresar al Listado de Torneos sin guardar ningún dato si decido no continuar. |
-| **Prioridad** | *[Alta] [Media] [Baja]* |
+| **Prioridad** | **HU-03 (Baja):** Es una mejora de experiencia de usuario, pero no 
+  bloquea el objetivo de negocio. El sistema funciona sin este flujo 
+  explícito para el MVP.|
 | **Estimación** | *Puntos de historia* |
 
 | Campo | Descripción |
@@ -44,7 +52,9 @@ La implementación de los requerimientos identificados de Bankify se desglosa de
 | **ID** | HU-04 |
 | **Título** | Ver confirmación de creación exitosa y volver al listado |
 | **Descripción** | Como organizador quiero ver un mensaje de confirmación cuando el torneo se cree exitosamente para tener certeza de que quedó registrado, y poder volver al Listado de Torneos desde ahí. |
-| **Prioridad** | *[Alta] [Media] [Baja]* |
+| **Prioridad** | **HU-04 (Media):** Da certeza al usuario de que el registro fue exitoso, 
+  importante para la confianza en el sistema, pero técnicamente el torneo 
+  ya quedó creado en HU-02 aunque no se muestre confirmación. |
 | **Estimación** | *Puntos de historia* |
 
 ### 3. Tareas:
