@@ -12,7 +12,29 @@ La implementación de los requerimientos identificados de TechCup se documenta e
 
 ## 2. Historias de usuario
 
-*(Aquí irán los screenshots de cada una de las 4 User Stories)*
+### HU-01 – Iniciar creación de torneo desde el listado
+
+**ID en Jira:** DLMGD-2
+
+![HU-01 DLMGD-2](../images/jira_hu01_DLMGD-2.png)
+
+### HU-02 – Completar y enviar el formulario de creación de torneo
+
+**ID en Jira:** DLMGD-3
+
+![HU-02 DLMGD-3](../images/jira_hu02_DLMGD-3.png)
+
+### HU-03 – Cancelar la creación de un torneo
+
+**ID en Jira:** DLMGD-4
+
+![HU-03 DLMGD-4](../images/jira_hu03_DLMGD-4.png)
+
+### HU-04 – Ver confirmación de creación exitosa y volver al listado
+
+**ID en Jira:** DLMGD-5
+
+![HU-04 DLMGD-5](../images/jira_hu04_DLMGD-5.png)
 
 ## 3. Tareas
 
