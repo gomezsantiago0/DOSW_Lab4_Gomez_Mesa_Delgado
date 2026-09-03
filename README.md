@@ -2,7 +2,9 @@
  
 ## Integrantes
 | Diego Alejandro Mesa Alfonso | Product Owner |
+
 | Santiago Andres Gomez Rojas | Scrum Master |
+
 | Nicolas Esteban Delgado Rodriguez | Developer |
  
 ## Objetivo
