@@ -2,7 +2,7 @@
 
 ## Desglose de trabajo: Épicas, Historias de Usuario y Tareas
 
-La implementación de los requerimientos identificados de Bankify se desglosa de la siguiente manera:
+La implementación de los requerimientos identificados de TechCup se desglosa de la siguiente manera:
 
 ### 1. Épica:
 
@@ -10,8 +10,8 @@ La implementación de los requerimientos identificados de Bankify se desglosa de
 |------|-------------|
 | **ID** | EP-01 |
 | **Título** | Creación y gestión de torneos |
-| **Descripción** | Bankify necesita permitir que los organizadores puedan crear nuevos torneos directamente desde la plataforma, definiendo la fecha del torneo y el valor de inscripción, para ampliar la oferta de torneos disponibles, agilizar la operación (evitando procesos manuales) y aumentar la captación de inscripciones y, con ello, los ingresos asociados. |
-| **Stakeholder** | Área de Producto / Operaciones de Torneos de Bankify (responsable de administrar la oferta de torneos en la plataforma). |
+| **Descripción** | TechCup necesita permitir que los organizadores puedan crear nuevos torneos directamente desde la plataforma, definiendo la fecha del torneo y el valor de inscripción, para ampliar la oferta de torneos disponibles, agilizar la operación (evitando procesos manuales) y aumentar la captación de inscripciones y, con ello, los ingresos asociados. |
+| **Stakeholder** | Área de Producto / Operaciones de Torneos de TechCup (responsable de administrar la oferta de torneos en la plataforma). |
 
 ### 2. Historias de usuario:
 
@@ -20,10 +20,7 @@ La implementación de los requerimientos identificados de Bankify se desglosa de
 | **ID** | HU-01 |
 | **Título** | Iniciar creación de torneo desde el listado |
 | **Descripción** | Como organizador quiero acceder al formulario de creación de torneo desde la pantalla de Listado de Torneos para poder iniciar el registro de un nuevo torneo. |
-| **Prioridad** | **HU-01 (Alta):** Es el punto de entrada obligatorio al flujo. Sin esta 
-  funcionalidad, ningún organizador puede llegar al formulario de creación 
-  — bloquea completamente el resto de la épica.
- |
+| **Prioridad** | Alta |
 | **Estimación** | *Puntos de historia* |
 
 | Campo | Descripción |
@@ -31,10 +28,7 @@ La implementación de los requerimientos identificados de Bankify se desglosa de
 | **ID** | HU-02 |
 | **Título** | Completar y enviar el formulario de creación de torneo |
 | **Descripción** | Como organizador quiero ingresar la fecha del torneo y el valor de inscripción en el Formulario Crear Torneo para registrar los datos necesarios y que, si son válidos, el torneo se cree y me lleve a la pantalla de Confirmación. |
-| **Prioridad** | **HU-02 (Alta):** Es el corazón funcional de la épica: aquí se valida y 
-  persiste la información real del torneo (fecha, valor de inscripción) 
-  según las reglas de negocio. Sin esta historia no existe "creación de 
-  torneos" como funcionalidad |
+| **Prioridad** | Alta |
 | **Estimación** | *Puntos de historia* |
 
 | Campo | Descripción |
@@ -42,9 +36,7 @@ La implementación de los requerimientos identificados de Bankify se desglosa de
 | **ID** | HU-03 |
 | **Título** | Cancelar la creación de un torneo |
 | **Descripción** | Como organizador quiero poder cancelar el proceso desde el Formulario Crear Torneo para regresar al Listado de Torneos sin guardar ningún dato si decido no continuar. |
-| **Prioridad** | **HU-03 (Baja):** Es una mejora de experiencia de usuario, pero no 
-  bloquea el objetivo de negocio. El sistema funciona sin este flujo 
-  explícito para el MVP.|
+| **Prioridad** | Baja |
 | **Estimación** | *Puntos de historia* |
 
 | Campo | Descripción |
@@ -52,10 +44,18 @@ La implementación de los requerimientos identificados de Bankify se desglosa de
 | **ID** | HU-04 |
 | **Título** | Ver confirmación de creación exitosa y volver al listado |
 | **Descripción** | Como organizador quiero ver un mensaje de confirmación cuando el torneo se cree exitosamente para tener certeza de que quedó registrado, y poder volver al Listado de Torneos desde ahí. |
-| **Prioridad** | **HU-04 (Media):** Da certeza al usuario de que el registro fue exitoso, 
-  importante para la confianza en el sistema, pero técnicamente el torneo 
-  ya quedó creado en HU-02 aunque no se muestre confirmación. |
+| **Prioridad** | Media |
 | **Estimación** | *Puntos de historia* |
+
+### Justificación de prioridades
+
+- **HU-01 (Alta):** Es el punto de entrada obligatorio al flujo. Sin esta funcionalidad, ningún organizador puede llegar al formulario de creación — bloquea completamente el resto de la épica.
+
+- **HU-02 (Alta):** Es el corazón funcional de la épica: aquí se valida y persiste la información real del torneo (fecha, valor de inscripción) según las reglas de negocio. Sin esta historia no existe "creación de torneos" como funcionalidad.
+
+- **HU-03 (Baja):** Es una mejora de experiencia de usuario, pero no bloquea el objetivo de negocio. El sistema funciona sin este flujo explícito para el MVP.
+
+- **HU-04 (Media):** Da certeza al usuario de que el registro fue exitoso, importante para la confianza en el sistema, pero técnicamente el torneo ya quedó creado en HU-02 aunque no se muestre confirmación.
 
 ### 3. Tareas:
 
