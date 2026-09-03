@@ -1,9 +1,9 @@
 # DOSW-Laboratorio4 — TechCup
  
 ## Integrantes
-- Nicolas Esteban Delgado Rodriguez
-- Santiago Andres Gomez Rojas
-- Diego Alejandro Mesa Alfonso
+| Diego Alejandro Mesa Alfonso | Product Owner |
+| Santiago Andres Gomez Rojas | Scrum Master |
+| Nicolas Esteban Delgado Rodriguez | Developer |
  
 ## Objetivo
 Aplicar herramientas de planificación ágil (Scrum y Kanban) sobre un caso de estudio práctico,
