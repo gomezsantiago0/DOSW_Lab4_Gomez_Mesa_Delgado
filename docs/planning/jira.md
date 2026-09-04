@@ -114,7 +114,7 @@ La implementación de los requerimientos identificados de TechCup se documenta e
 
 **Timeline / Roadmap:**
 
-![Timeline TechCup](../images/jira_timeline.jpeg)
+![Timeline TechCup](../images/jira_timeline.jpeg.png)
 
 ## 5. Backlog
 
